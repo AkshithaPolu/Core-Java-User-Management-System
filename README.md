@@ -24,7 +24,7 @@ This project extensively uses the following Core Java concepts:
 -  Enums – To define fixed user roles (ADMIN, USER)
 -  equals() and hashCode() – For comparing users based on email
 -  Custom Exceptions – To handle duplicate email scenarios gracefully
-### **Problem Statement **
+### **Problem Statement**
 -  Create a User class with the following attributes:
     1. id (auto-generated)
     2. name
