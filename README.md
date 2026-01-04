@@ -1,4 +1,3 @@
 # Core-Java-User-Management-System
-A console-based Core Java application that manages users in memory using a fixed-size array. The system implements OOP principles, auto-generated user IDs, role-based access, email uniqueness validation using equals() and hashCode(), and custom exception handling.
-# Project Overview
+### **Project Overview**
 The Core Java In-Memory User Management System is a console-based application developed using pure Core Java concepts. The project focuses on designing and managing user data entirely in memory without using databases or external frameworks. This system demonstrates how object-oriented programming principles and core Java features can be applied to build a structured, scalable, and maintainable application. Users are stored in a fixed-size array, and operations such as user creation, validation, and duplicate handling are performed programmatically.
