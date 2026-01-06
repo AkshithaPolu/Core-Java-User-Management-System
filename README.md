@@ -8,6 +8,17 @@ The main objectives of this project are:
 -  To practice handling data in memory without databases
 -  To ensure data validation and uniqueness constraints
 -  To learn how custom exceptions improve program reliability
+### **Problem Statement**
+-  Create a User class with the following attributes:
+    1. id (auto-generated)
+    2. name
+    3. email (must be unique)
+    4. role (ADMIN / USER)
+    5. active status
+-  Implement a UserService that manages users using a fixed-size array
+-  Validate inputs and prevent duplicate email entries
+-  Throw a custom DuplicateUserException when a duplicate email is detected
+-  Demonstrate all functionalities in a main method
 ### **Key Features**
 -  Auto-generated unique User ID
 -  Email-based uniqueness validation
@@ -24,17 +35,6 @@ This project extensively uses the following Core Java concepts:
 -  Enums – To define fixed user roles (ADMIN, USER)
 -  equals() and hashCode() – For comparing users based on email
 -  Custom Exceptions – To handle duplicate email scenarios gracefully
-### **Problem Statement**
--  Create a User class with the following attributes:
-    1. id (auto-generated)
-    2. name
-    3. email (must be unique)
-    4. role (ADMIN / USER)
-    5. active status
--  Implement a UserService that manages users using a fixed-size array
--  Validate inputs and prevent duplicate email entries
--  Throw a custom DuplicateUserException when a duplicate email is detected
--  Demonstrate all functionalities in a main method
 ### **Application Flow**
 -  Create users using constructors
 -  Add users to the system via UserService
